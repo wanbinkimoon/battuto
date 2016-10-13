@@ -14,7 +14,6 @@ The purpose of this repo is to provide a `javascript` powered boilerplate for fr
 - Improves flexibility with subtle **contextual** and **global** variables.
 - Explains what code does using detailed comments.
 - Provide a set of styles automatically overridable in order to reduce the code length.
--
 
 ## Usage
 
