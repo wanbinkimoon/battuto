@@ -15,6 +15,105 @@ The purpose of this repo is to provide a `javascript` powered boilerplate for fr
 - Explains what code does using detailed comments.
 - Provide a set of styles automatically overridable in order to reduce the code length.
 
+## Features
+
+### Configuration
+
+**Battuto** has this configuration options:
+
+- Primary font family – mostly used for `buttons` and `headings`
+- Secondary font family – mostly used in `paragraphs`
+- `body` background color
+- Primary color
+- Accent color
+- Width of the base section
+
+### Elements
+
+**Battuto** has a `js` file for each element grouped in folders by function. Each folder has a index with the same name, placed in `elements/`, wich imports its elements.<br>
+The division below follow the one at used by MDN [here](https://developer.mozilla.org/en/docs/Web/HTML/Element)
+
+### Folder structure
+
+**Battuto** is organised as follows
+
+```
+battuto/
+└─ _config.js
+└─ config/
+  └─ _content-sectioning.js
+
+└─ _elements.js
+└─ elements/
+  └─ _content-sectioning.js
+  └─ content-sectioning/
+      └─ article.js
+      └─ aside.js
+      └─ footer.js
+      └─ header.js
+      └─ heading.js
+      └─ nav.js
+      └─ section.js
+  └─ _text-content.js
+  └─ text-content/
+      └─ div.js
+      └─ hr.js
+      └─ li.js
+      └─ main.js
+      └─ ol.js
+      └─ p.js
+      └─ ul.js
+  └─ _inline-text.js
+  └─ inline-text/
+      └─ a.js
+      └─ code.js
+  └─ _media.js
+  └─ media/
+      └─ img.js
+      └─ video.js
+  └─ _embedded-content.js
+  └─ embedded-content/
+      └─ object.js
+  └─ _scripting.js
+  └─ scripting/
+      └─ canvas.js
+  └─ _forms.js
+  └─ forms/
+      └─ button.js
+      └─ input.js
+      └─ label.js
+      └─ select.js
+      └─ textarea.js
+```
+
+### Elements styled
+
+- `<article>`
+- `<aside>`
+- `<footer>`
+- `<header>`
+- `<heading>`
+- `<nav>`
+- `<section>`
+- `<div>`
+- `<hr>`
+- `<li>`
+- `<main>`
+- `<ol>`
+- `<p>`
+- `<ul>`
+- `<a>`
+- `<code>`
+- `<img>`
+- `<video>`
+- `<object>`
+- `<canvas>`
+- `<button>`
+- `<input>`
+- `<label>`
+- `<select>`
+- `<textarea>`
+
 ## Usage
 
 To start mess with the code `cd` into the root folder and run
