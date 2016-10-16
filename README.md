@@ -45,6 +45,9 @@ battuto/
 
 └─ _elements.js
 └─ elements/
+  └─ _body.js
+  └─ body/
+    └─ body.js
   └─ _content-sectioning.js
   └─ content-sectioning/
       └─ article.js
